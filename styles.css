@@ -870,7 +870,7 @@
 .footer-list{
    display: flex;
    flex-direction: column;
-   gap: 16px;gi
+   gap: 16px;
 }
 .footer-list-item{
 
@@ -889,6 +889,9 @@ font-size: 14px;
 line-height: 150%;
 color: #2a2c1f;
 text-decoration: none;
+}
+.footer-box-right{
+  
 }
 .footer-right-title{
     font-family: var(--font-family);
@@ -954,3 +957,27 @@ line-height: 150%;
 color: #65665c;
 text-decoration: none;
 }
+.footer-bottom{
+    margin-top: 64px;
+background: #f5f5f2;
+padding-top: 24px;
+padding-bottom: 24px;
+padding-left: 144px;
+padding-right: 144px;
+}
+.footer-bottom-box{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #65665c;
+}
+.footer-social-list{
+    display: flex;
+    gap: 12px;
+
+}g
